@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+body{
+    height: 100vh;
+    /*
+    background: #ef233c;
+    */
+    background-image: url(https://wallpaperaccess.com/full/3726072.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    user-select: none;
+    
+}
+
+.header1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #111111;
+    padding: 40px;
+    display: block;
+    height: 40px;
+    
+
+}
+
+.contenedor1{
+    height: 50%;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 25%;
+    left: 2%;
+    width: 50%;
+    padding-bottom: 20px;
+    font-size: 0px;
+}
+.contenedor2{
+    height: 75%;
+    border-radius: 20px;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.719);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.197);
+    position: absolute;
+    padding-bottom: 20px;
+    top: 12.5%;
+    left: 25%;
+    width: 50%;
+}
+
+.contenedor3{
+    width: 50%;
+    height: 60%;
+    border-radius: 20px;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.719);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.197);
+    position: absolute;
+    padding-bottom: 20px;
+    top: 20%;
+    left: 40%;
+    width: 21%;
+}
+.encabezado{
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    padding: 2.5%;
+    left: 40px;
+    width: 300px;
+    color: #000000;
+}
+.notificaciones{
+    position:relative;
+    padding: 2.5%;
+    width: 85%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    left: 8%;
+    margin-bottom: 10px;
+}
+.contenedorChat{
+    overflow : auto;
+    position:relative;
+    padding: 2.5%;
+    width: 85%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    left: 8%;
+    margin-bottom: 10px;
+}
+
+.icono{
+    position:relative;
+    width: 85%;
+    height: 50%;
+    background-color: #dee2e6;
+    border-radius: 60%;
+    left: 8%;
+    margin-bottom: 10px;
+}
+.botonEnvio{
+    border-radius: 5px;
+    height: 9%;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    color: white;
+    background-color: black;
+    margin-left: 10%;
+
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+
+    top: 25%;
+    left: 60%;
+    width: 15%;
+
+    margin-left: 8%;
+}
+
+.botonEnvio:hover{
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.719);;
+}
+
+
+.Iniciar{
+    width: 50%;
+    border-radius: 5px;
+    height: 10%;
+    left: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+    padding: 2%;
+    font-size: 15px;
+}
+
+.Iniciar:hover{
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+
+.mensaje{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(88, 88, 88);
+    background-color: rgba(255, 255, 255, 0.719);
+    border-style: solid;
+
+    top: 25%;
+    left: 50%;
+    width: 35%;
+
+    margin-left: 8%;
+}
+.usuario{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(88, 88, 88);
+    background-color: rgba(255, 255, 255, 0.719);
+    border-style: solid;
+    margin-top: 2%;
+
+    top: 25%;
+    left: 50%;
+    width: 35%;
+
+    margin-left: 8%;
+}
+
+.encabezado{
+    color: #000000;
+}
+
+.encabezado2{
+    color: #000000;
+}
+.avisos{
+    position: relative;
+    font-style: italic;
+    height: 20px;
+    width: 420px;
+    color: #000000;
+    background-color: transparent;
+}
